@@ -30,6 +30,8 @@ print(observation)
 
 PlaygroundPage.current.liveView = myVC
 //Check in console for KVO
+
+myVC.label.text = "Text"
 myVC.label.text = "Hello"
 myVC.label.text = "Hello1"
 
