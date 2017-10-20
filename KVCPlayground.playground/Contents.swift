@@ -29,6 +29,7 @@ let observation = myVC.label.observe(\.text) { (lbl, change) in
 print(observation)
 
 PlaygroundPage.current.liveView = myVC
+//Check in console for KVO
 myVC.label.text = "Hello"
 myVC.label.text = "Hello1"
 
